@@ -4,7 +4,7 @@ $recepient = 'alycasar@gmail.com';
 $sitename = 'Название сайта';
 
 $name = trim($_POST["name"]);
-$phone = trim($_POST["phone"]);
+$phone = trim($_POST["email"]);
 $text = trim($_POST["text"]);
 $message = "Имя: $name \nТелефон: $phone \nТекст: $text";
 
