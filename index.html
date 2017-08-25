@@ -120,11 +120,11 @@
 				</div>
 				<div class="column col5 pl-50">
 					<h3>Send a message</h3>
-					<form id="contactform">
-						<p class="column col4"><label for="name">Name:</label><input type="text" name="name" id="name" /></p>
-						<p class="column col4"><label for="email">E-mail:</label><input type="text" name="email" id="email" /></p>
-						<p class="column col8"><label for="message">Message:</label><textarea rows="5" name="message" id="message"></textarea></p>
-						<p class="column col8"><input class="button" type="button" value="Submit" /></p>
+					<form id="form" method="post">
+						<p class="column col4"><label for="name">Name:</label><input type="text" name="name"  id="name" required/></p>
+						<p class="column col4"><label for="email">E-mail:</label><input type="text" name="email"  id="email" required/></p>
+						<p class="column col8"><label for="message">Message:</label><textarea rows="5" name="message"  id="message"></textarea></p>
+						<p class="column col8"><input class="button" type="button" value="Submit" required/></p>
 					</form>
 					<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	  				<script src="js/common.js"></script>

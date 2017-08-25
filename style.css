@@ -324,13 +324,13 @@ Span 8:    100%
   padding:0;
 }
 
-#contactform label {
+#form label {
   width:100%;
   display:block;
 }
 
-#contactform input,
-#contactform textarea {
+#form input,
+#form textarea {
   width:100%;
   background-color:rgba(0,0,0,0.5);
   color:white;
@@ -338,7 +338,7 @@ Span 8:    100%
   padding:5px;
 }
 
-#contactform input.button {
+#form input.button {
   background-color:#fa6800;
   padding:10px;
   width:auto;
