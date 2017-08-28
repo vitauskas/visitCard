@@ -92,7 +92,7 @@ Span 8:    100%
 .column {
   margin-left:3%;
   padding:0 0%;
-  float:left;
+  float:left;  
 }
 
 .column:first-child {
@@ -324,13 +324,37 @@ Span 8:    100%
   padding:0;
 }
 
-#form label {
+#but {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 5px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px; 
+  }
+
+textarea {
+  width: 300px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+button {
+  width: 100px;
+  height: 30px;  
+  border-radius: 7px;  
+  }
+/*#form label {
   width:100%;
   display:block;
 }
 
-#form input,
-#form textarea {
+.feedback__row3 {
   width:100%;
   background-color:rgba(0,0,0,0.5);
   color:white;
@@ -338,7 +362,7 @@ Span 8:    100%
   padding:5px;
 }
 
-#form input.button {
+.feedback__row4 {
   background-color:#fa6800;
   padding:10px;
   width:auto;
@@ -352,7 +376,7 @@ Span 8:    100%
   width:100%;
   padding-top:20px;
   margin-top:-2px;
-}
+}*/
 
 #footer a {
   color:#999;

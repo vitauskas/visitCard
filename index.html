@@ -7,9 +7,9 @@
 	<meta name="author" content="Aaviya" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>	
 	<link type="text/css" rel="stylesheet" href="style.css" media="screen" />
-	<script src="//code.jquery.com/jquery-1.9.1.js"></script>
-	<script src="js/jquery-1.6.2.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<!-- <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="js/jquery-1.6.2.min.js"></script> -->
+	
 
 	<title>resume</title>
 </head>
@@ -18,7 +18,7 @@
 <div id="mainwrap">
 
 		<header>
-			<h1><a href="/">Viktor Benda</a></h1>
+			<h1><a href="">Viktor Benda</a></h1>
 			<h2>Web Developer</h2>
 			<ul id="menu">
 				<li><a class="profile" href="#profile" title="Profile">Profile</a><span>Some information about me</span></li>
@@ -72,7 +72,8 @@
 				</div>
 				<div class="column col5 pl-50">
 					<img src="img/photo_01.jpg" alt="Viktor Benda" />
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. </p>
+					<p> Было время, когда при составлении резюме владение компьютером, писали в графе дополнительные навыки или хобби.<br>
+					  Представляете насколько изменился мир.<br> Итак, я решил стать веб програмистом, решил быть на острие новых технологий.  </p>
 					<p><a href="#">Download PDF resume</a></p>
 				</div>
 			</div>
@@ -81,26 +82,26 @@
 				<table id="cv">
 					<tbody>
 						<tr>
-							<td class="col2"><div class="date">April 2012 - present</div></td>
+							<td class="col2"><div class="date">December  2008 - June 2014</div></td>
 							<td class="col6 pl-30">
-								<p class="company">LenixCode</p>
-								<p class="title">Senior Web Developer</p>
+								<p class="company">Advertising Star</p>
+								<p class="title">Commercial director</p>
 								<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 							</td>
 						</tr>
 						<tr>
-							<td class="col2"><div class="date">January 2011 - March 2012</span></td>
+							<td class="col2"><div class="date"> May 2005 - January 2008</span></td>
 							<td class="col6 pl-30">
-								<p class="company">Bent&amp;Co</p>
-								<p class="title">Senior Web Developer</p>
+								<p class="company">LDS print</p>
+								<p class="title">Head of Marketing and Advertising Department</p>
 								<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 							</td>
 						</tr>
 						<tr>
 							<td class="col2"><div class="date">June 2008 - December 2010</span></td>
 							<td class="col6 pl-30">
-								<p class="company">PC World</p>
-								<p class="title">Junior Web Developer</p>
+								<p class="company">JV Intertechnodruk</p>
+								<p class="title">Deputy Executive Director</p>
 								<p class="description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 							</td>
 						</tr>
@@ -118,26 +119,34 @@
 					<p>Telephone: +380 00 000 000<br />
 						Mobile: +380 00 000 00 00</p>
 				</div>
-				<div class="column col5 pl-50">
+				<div class="column col5 pl-50" id="but">
 					<h3>Send a message</h3>
-					<form id="form" method="post">
-						<p class="column col4"><label for="name">Name:</label><input type="text" name="name"  id="name" required/></p>
-						<p class="column col4"><label for="email">E-mail:</label><input type="text" name="email"  id="email" required/></p>
-						<p class="column col8"><label for="message">Message:</label><textarea rows="5" name="text"  id="message"></textarea></p>
-						<p class="column col8"><input class="button" type="button" value="Submit" required/></p>
-					</form>
+					<form id="top_form">
+						<div class="feedback__row">
+        					<input type="text" name="name" placeholder="Введите Ваше имя" required>
+      					</div>
+      					<div class="feedback__row">
+        					<input type="text" name="email" placeholder="Введите Ваш электронный адресс" required>
+      					</div>
+      					<div class="feedback__row">
+        					<textarea name="text" placeholder="Введите текст сообщения" required></textarea>
+      					</div>
+      					<button>send</button>
+					</form>	
 					<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-	  				<script src="js/common.js"></script>
+					<script src="js/common.js"></script>
+					<script src="js/scripts.js"></script>				
 				</div>
 			</div>
 		</div>
 
 		<div id="footer">
-			&copy; 2017 Viktor Benda &middot;
+		<!-- 	&copy; 2017 Viktor Benda &middot; -->
 		</div>
 	  
 		<script type="text/javascript">
 			$(document).ready(function() {
+
 			    $(".section").not(":first").hide();
 			    $("ul#menu li:first").addClass("active").show(); 
 			 
@@ -152,7 +161,7 @@
 			 
 			});
 		</script>
-	</div>
+	</div>	
 	
 </body>
 </html>
